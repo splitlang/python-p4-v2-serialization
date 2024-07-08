@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 #server/seed.py
 from random import choice as rc
@@ -29,3 +30,4 @@ with app.app_context():
 
     # Commit the transaction
     db.session.commit()
+
